@@ -36,10 +36,10 @@ on:
         - 'yes'
         - 'no'
       pppoe_account:
-        description: "990005129623"
+        description: "PPPoE账号 (若启用PPPoE)"
         required: false
       pppoe_password:
-        description: "t4laz3ay"
+        description: "PPPoE密码 (若启用PPPoE)"
         required: false
 
 jobs:
